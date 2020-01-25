@@ -1,0 +1,181 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+            
+    <title>Showcase with Materialize</title>
+    <style type="text/css">
+    	.padded{
+    		padding-top:10%;
+    	}
+        #font{
+            font-family:"Ink Free",serif, "Comic Sans MS";
+        }
+        .font2{
+        	font-family:'Gloss and Bloom';
+        }
+        .font-text{
+        	font-family:'Gabriola';
+        	font-size:1.5rem;
+        }
+        header{
+            background:url(imgs/roses.jpg);
+            background-size:cover;
+            background-position: center;
+            min-height: 900px;
+            }
+        .section{
+            padding-top:4vw;
+            padding-bottom:4vw;
+        }
+        .mixer-top{
+        	background:url(imgs/mix_top.png);
+        	background-size:cover;
+            background-position: center;
+            min-height: 900px;
+		}
+		.mixer-btm{
+        	background:url(imgs/mix_btm.png);
+        	background-size:cover;
+            background-position: cover;
+            min-height: 700px;
+		}
+        @media screen and (max-width: 700px){
+            header{
+                min-height: 500px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation bar and Image -->
+    <header>
+        <nav class="nav-wrapper transparent z-depth-0">
+            <div class="container">
+                <a href="index.html" class="brand-logo" id="font">Showcase</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down" style="font-family:'Gabriola';">
+                    <li><a href="index.html" class="waves-effect waves-light">Home</a></li>
+                    <li><a href="artworks.html" class="waves-effect waves-light">My Artworks</a></li>
+                    <li><a href="wcid.html" class="waves-effect waves-light">What I can work with?</a></li>
+                    <li> <i class="btn-floating btn waves-effect waves-light fab fa-instagram pink" style="margin:1vw"> </i></li>
+                    <li> <i class="btn-floating btn waves-effect waves-light fab fa-facebook blue" style="margin:1vw"> </i></li>
+                    <li> <i class="btn-floating btn waves-effect waves-light fab fa-linkedin blue darken-3" style="margin:1vw"> </i></li>
+                </ul>
+                <ul class="sidenav grey lighten-3 z-depth-0" id="mobile-links">
+                	<li><a href="index.html" class="mobile-links font2">Showcase</a></li>
+                    <li><a href="index.html" id="font">Home</a></li>
+                    <li><a href="artworks.html" id="font">My Artworks</a></li>
+                    <li><a href="wcid.html" id="font">What I can work with?</a></li>
+                    <i class="btn-floating btn waves-effect waves-light fab fa-instagram pink" style="margin:1vw"></i>
+                    <i class="btn-floating btn waves-effect waves-light fab fa-facebook blue" style="margin:1vw"></i>
+                    <i class="btn-floating btn waves-effect waves-light fab fa-linkedin blue darken-3" style="margin:1vw"></i>
+                </ul>
+            </div>
+        </nav>
+    	<div class="mixer-top">
+        </div>
+    </header>
+
+    <!-- Information Section -->
+    <section class="container section" id="photos">
+        <div class="row padded">
+            <div class="col s12 l4">
+                <img src="imgs/subnautica_reaper.png" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="blue-text text-darken-4 font2">Why a website?</h2>
+                <p id="font-text">I believe that showing some work is better than explaining what I can do (I am somewhat bad in explaining technical stuff too unless without going into the technicalities). This website is a practice Website for showcasing stuff I create using CSS and it's frameworks, this one uses Materialize and some CSS.</p>
+            </div>
+        </div>
+        <div class="row padded">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <img src="imgs/yenn.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align">
+                <h2 class="blue-text text-darken-4 font2">Content</h2>
+                <p id="font-text">Almost all the time the stuff on a site is purely my own, I create the images, the code and the wireframe of this website all by myself. Though, you can find some minor stuff that is not by me with citations to the original creator.</p>
+            </div>
+        </div>
+        <div class="row padded">
+            <div class="col s12 l4">
+                <img src="imgs/abstract2_2-1.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="blue-text text-darken-4 font2">Education</h2>
+                <p id="font-text">I am a Computer Science Engineering student in a University currently in 2nd year, working to create Responsive and Professional looking Websites as a hobby/side job.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- First Parallax -->
+    <div class="parallax-container" style="height:85%">
+    	<div class="mixer-btm">
+        </div>
+        <div class="parallax">
+            <img src="imgs/Vikings-Recovered-1.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+    <!-- Container -->
+    <div class="container padded">
+        <h3 class="font2">Trying my best</h3>
+        <p id="font"> You might find a few bugs and glitches in the site, as I am the only person developing this site. I can't find all the bugs on my own. If you discover any bugs/glitches that I missed or any suggestions orimprovement in the code, please suggest them to me via the social media platforms I have linked this site on.</p>
+    </div>
+    <!-- Second Parallax -->
+    <div class="parallax-container" style="height:80%">
+    	<div class="mixer-btm">
+        </div>
+        <div class="parallax">
+            <img src="imgs/WolvenStorm-1.png" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer grey darken-3">
+    	<div class="container bottom"> 
+    		<div class="row" style="margin-bottom:0px">
+    			<div class="col s12 m6">
+    				<h5 class="font2">About Me</h5>
+    			</div>
+    			<div class="col s12 l4 offset-l2">
+    				<h5 class="font2">Connect</h5>
+    				<ul>
+		    			<li>
+		    				<a href="#!" class="grey-text text-lighten-3 center font-text">Instagram </a>
+		    			</li>
+		    			<li>
+		    				<a href="#!" class="grey-text text-lighten-3 center font-text">Facebook </a>
+		    			</li>
+		    			<li>
+		    				<a href="#!" class="grey-text text-lighten-3 center font-text">LinkedIn </a>
+		    			</li>
+		    		</ul>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        let c = 0;
+        $('#scale-demo-trigger').click( f => c == 0
+        ? `${$('#scale-demo').removeClass('scale-in').addClass('scale-out')} ${c = c+=1}` 
+        : `${$('#scale-demo').removeClass('scale-out').addClass('scale-in')} ${c = c-=1}`
+        );
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+        })
+    </script>
+</body>
+</html>

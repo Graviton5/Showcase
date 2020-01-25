@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<title>My Artworks</title>
+	<style type="text/css">
+        .title span{
+            position: absolute;
+            bottom: 2vh;
+            left: 18vw;
+            color:white;
+        }
+        .fit{
+            height: 100%; 
+            width: 100%; 
+            object-fit: contain;
+        }
+    	#padded{
+    		padding:5%;
+    	}
+        .font{
+            font-family:"Ink Free",serif, "Comic Sans MS";
+        }
+        .font2{
+        	font-family:'Gloss and Bloom';
+        }
+        .font-text{
+            font-family:'Gabriola';
+            font-size:1.5rem;
+        }
+        .section{
+            padding-top:4vw;
+            padding-bottom:4vw;
+        }
+        .pic{
+            background-size:cover;
+            background-position: cover;
+            min-height: 700px;
+        }
+        @media screen and (max-width: 700px){
+            header{
+                min-height: 500px;
+            }
+        }
+
+    </style>
+</head>
+<body style="background:url(imgs/backgroun.png);background-size:cover;background-position: center;min-height: 700px;">
+        <header>
+        <nav class="nav-wrapper blue z-depth-0">
+            <div class="container">
+                <a href="index.html" class="brand-logo font">Showcase</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down" style="font-family:'Gabriola';">
+                    <li><a href="index.html" class="waves-effect waves-light">Home</a></li>
+                    <li><a href="artworks.html" class="waves-effect waves-light">My Artworks</a></li>
+<!--                     <li><a href="wcid.html" class="waves-effect waves-light">What I can work with?</a></li> -->
+                    <li> <i class="btn-floating btn-small waves-effect waves-light fab fa-instagram pink" style="margin:1vw"> </i></li>
+                    <li> <i class="btn-floating btn-small waves-effect waves-light fab fa-facebook blue" style="margin:1vw"> </i></li>
+                    <li> <i class="btn-floating btn-small waves-effect waves-light fab fa-linkedin blue darken-3" style="margin:1vw"> </i></li>
+                </ul>
+                <ul class="sidenav grey lighten-3 z-depth-0" id="mobile-links" style="font-family:'Gabriola'">
+                    <li><a href="index.html" class="mobile-links font2">Showcase</a></li>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="artworks.html" >My Artworks</a></li>
+<!--                     <li><a href="wcid.html" class="font2">What I can work with?</a></li> -->
+                    <li class = "center">
+                    <i class="btn-floating btn-small waves-effect waves-light fab fa-instagram pink" style="margin:1vw"></i>
+                    <i class="btn-floating btn-small waves-effect waves-light fab fa-facebook blue" style="margin:1vw"></i>
+                    <i class="btn-floating btn-small waves-effect waves-light fab fa-linkedin blue darken-3" style="margin:1vw"></i>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" id="padded">
+        <h3 class='font2'>About me</h3>
+        <p class='font'>A Web Development / Data Science Enthusiast, currently doing B.Tech in Computer Science Engineering as a Sophomore & working my way up in the industry, currently looking for internships. This pages shows my Qualifications and Skills.</p>
+        <div class="row">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s4 font"><a href="#test1">Education</a></li>
+                <li class="tab col s4 font"><a class="active" href="#test2">My Skills</a></li>
+<!--                 <li class="tab col s3 font"><a href="#test3">Previous Achievements</a></li> -->
+                <li class="tab col s4 font"><a href="#test4">Hobbies</a></li>
+              </ul>
+            </div>
+            <div id="test1" class="col s6">
+                <p class="font padded" style="font-size:20px;">I usually go online by the alias "Graviton". Currently a Sophomore doing B.Tech. in CSE, I manage to balance my Acadamics with my Hobbies pretty fairly. I have completed my schooling in India and I managed to achieve decent Grades.<br>Detailed Information about my Education is on my LinkedIn Profile.</p>
+                <a href="#!" class="black-text center font-text">My LinkedIn Profile</a>
+
+            </div>
+            <div id="test2" class="col s12" style="font-size:20px;">
+                <ul>
+                    <li><h5 style="font-family:'Nueva Std'; font-style:condensed;">Frontend</h5>
+                        <ul>
+                            <li class='font'><i class="fas fa-chevron-right"></i> HTML</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> CSS</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> JavaScript</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> jQuery</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Responsive Design</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Bootstrap/ Materialize Frameworks</li>
+                        </ul>
+                    </li>
+                    <li><h5 style="font-family:'Nueva Std'; font-style:condensed;">Backend</h5>
+                        <ul>
+                            <li class='font'><i class="fas fa-chevron-right"></i> MySQL</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> PHP</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Django</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Java</li>
+                        </ul>
+                    </li>
+                    <li><h5 style="font-family:'Nueva Std'; font-style:condensed;">Data Science</h5>
+                        <ul>
+                            <li class='font'><i class="fas fa-chevron-right"></i> VERY Basic Machine Learning using Python</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Data Visualization using Matplotlib</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Data Analysis</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Data Cleaning</li>
+                        </ul>
+                    </li>
+                </ul>               
+            </div>
+            <div id="test3" class="col s12">
+            </div>
+            <div id="test4" class="col s12" style="font-size:20px;">
+                <ul>
+                    <li><h5 style="font-family:'Nueva Std'; font-style:condensed;">Artistry</h5>
+                        <ul>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Photoshop</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Illustrator</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> After Effects</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Blender</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Source Filmmaker</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Lightroom</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><h5 style="font-family:'Nueva Std'; font-style:condensed;">Passive Skills</h5>
+                        <ul>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Quick Learner</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Can balance many tasks efficiently</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Good at solving a Rubik's Cube</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Gamer</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Part-Time Artist</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Good at Acadamics</li>
+                        </ul>
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="padded">
+        <h3 class='font2'>My Artworks</h3>
+        <div class="carousel carousel-slider center" style="height:100vh;">
+            <div class="carousel-fixed-item center">
+              <a class="transparent z-depth-0"></a>
+            </div>
+            <div class="carousel-item" href="#one!">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="imgs/abstract2_2-1.jpg">
+                        <span class="card-title center font">Witcher vs. Werewolf</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#two!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/tracer_shoot_2.jpg">
+                        <span class="card-title center font">Tracer - Off the Roof</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#three!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/gwen.png">
+                        <span class="card-title center font">Spider Gwen</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#four!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/blast_tw3-2.jpg">
+                        <span class="card-title center font">The Blast</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#five!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/amelia_pyro-1.jpg">
+                        <span class="card-title center font">Pyro - Team Fortress 2</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#six!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/tifa.png">
+                        <span class="card-title center font">Tifa Lockhart</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#seven!">
+                <div class="transparent fit title">
+                    <img class="fit" src="imgs/ezgif.com-optimize (1).gif">
+                    <span class="center font">Nebula Gif</span>
+                </div>
+            </div>
+            <div class="carousel-item" href="#eight!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/Vikings-Recovered-1.jpg">
+                        <span class="card-title center font">Vikings - Team Fortress 2 Version</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#nine!">
+                <div class="transparent fit title">
+                    <img class="fit" src="imgs/seris_divine_PSD-1.png">
+                    <span class="center font">Seris - From Paladins</span>
+                </div>
+            </div>
+            <div class="carousel-item" href="#ten!">
+                <div class="transparent fit title">
+                    <img class="fit" src="imgs/random-1-2.png">
+                    <span class="center font">Random Girl</span>
+                </div>
+            </div>
+            <div class="carousel-item" href="#eleven!">
+                <div class="transparent fit title">
+                    <img class="fit" src="imgs/thot6.png">
+                    <span class="center font">Female Scout</span>
+                </div>
+            </div>            
+            <div class="carousel-item" href="#twelve!">
+                <div class="transparent fit title">
+                    <img class="fit" src="imgs/tracer again-1.png">
+                    <span class="center font">Tracer - From the Past</span>
+                </div>
+            </div>
+            <div class="carousel-item" href="#thirteen!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/WolvenStorm-1.png">
+                        <span class="card-title center font">The Wolven Storm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#fourteen!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/subnautica_reaper.png">
+                        <span class="card-title center font">Reaper (From Subnautica)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer grey darken-3">
+        <div class="container"> 
+            <div class="row" style="margin-bottom:0px">
+                <div class="col s12 m6">
+                    <h5 class="font2">About Me</h5>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5 class="font2">Connect</h5>
+                    <ul>
+                        <li>
+                            <a href="#!" class="grey-text text-lighten-3 center font-text">Instagram 
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text text-lighten-3 center font-text">Facebook 
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text text-lighten-3 center font-text">LinkedIn 
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+
+		$(document).ready(function(){
+		   $('.carousel').carousel();
+           $('.tabs').tabs();
+		});
+        $('.carousel.carousel-slider').carousel({
+                fullWidth:true,
+                indicators: true
+        });         
+        let c = 0;
+        $('#scale-demo-trigger').click( f => c == 0
+        ? `${$('#scale-demo').removeClass('scale-in').addClass('scale-out')} ${c = c+=1}` 
+        : `${$('#scale-demo').removeClass('scale-out').addClass('scale-in')} ${c = c-=1}`
+        );
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+        })
+    </script>
+</body>
+</html>
