@@ -1,0 +1,49 @@
+ .title span{
+    position: absolute;
+    bottom: 2vh;
+    left: 18vw;
+    color:white;
+}
+.fit{
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
+}
+#padded{
+	padding:5%;
+}
+.font{
+    font-family:"Gabriola",serif, "Comic Sans MS";
+}
+.font2{
+	font-family:'Raleway';
+}
+.font-text{
+    font-family:'Raleway';
+    font-size:1.5rem;
+}
+.section{
+    padding-top:4vw;
+    padding-bottom:4vw;
+}
+.pic{
+    background-size:cover;
+    background-position: cover;
+    min-height: 700px;
+}
+@media screen and (max-width: 700px){
+    header{
+        min-height: 500px;
+    }
+}
+
+.side-nav::before{
+    margin:2px 2px 2px 0;
+}
+.side-nav{
+    display:inline-block;
+    height:50px !important;
+}
+.top-nav{
+    border-radius: 30%;
+}

@@ -7,17 +7,18 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-            
+    <link rel="stylesheet" href="css/extra.css">
+
     <title>Showcase with Materialize</title>
     <style type="text/css">
     	.padded{
     		padding-top:10%;
     	}
-        #font{
-            font-family:"Ink Free",serif, "Comic Sans MS";
+        .font{
+            font-family:serif, "Comic Sans MS";
         }
         .font2{
-        	font-family:'Gloss and Bloom';
+        	font-family:'Raleway';
         }
         .font-text{
         	font-family:'Gabriola';
@@ -58,24 +59,26 @@
     <header>
         <nav class="nav-wrapper transparent z-depth-0">
             <div class="container">
-                <a href="index.html" class="brand-logo" id="font">Showcase</a>
+                <a href="index.html" class="brand-logo font">Showcase</a>
                 <a href="#" class="sidenav-trigger" data-target="mobile-links">
                     <i class="material-icons">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down" style="font-family:'Gabriola';">
                     <li><a href="index.html" class="waves-effect waves-light">Home</a></li>
                     <li><a href="artworks.html" class="waves-effect waves-light">About Me</a></li>
-                    <li> <i class="btn-floating btn waves-effect waves-light fab fa-instagram pink" style="margin:1vw"> </i></li>
-                    <li> <i class="btn-floating btn waves-effect waves-light fab fa-facebook blue" style="margin:1vw"> </i></li>
-                    <li> <i class="btn-floating btn waves-effect waves-light fab fa-linkedin blue darken-3" style="margin:1vw"> </i></li>
+                    <li> <a href="https://www.instagram.com/graviton551/" class="btn waves-effect waves-light fab fa-instagram pink top-nav" style="margin:1vw"> </a></li>
+                    <li> <a href="https://www.facebook.com/KumarNilind23/" class="btn waves-effect waves-light fab fa-facebook blue top-nav" style="margin:1vw"> </a></li>
+                    <li> <a href="https://www.linkedin.com/in/graviton/" class="btn waves-effect waves-light fab fa-linkedin blue darken-3 top-nav" style="margin:1vw"> </a></li>
                 </ul>
                 <ul class="sidenav grey lighten-3 z-depth-0" id="mobile-links">
                 	<li><a href="index.html" class="mobile-links font2">Showcase</a></li>
-                    <li><a href="index.html" id="font">Home</a></li>
-                    <li><a href="artworks.html" id="font">About Me</a></li>
-                    <i class="btn-floating btn waves-effect waves-light fab fa-instagram pink" style="margin:1vw"></i>
-                    <i class="btn-floating btn waves-effect waves-light fab fa-facebook blue" style="margin:1vw"></i>
-                    <i class="btn-floating btn waves-effect waves-light fab fa-linkedin blue darken-3" style="margin:1vw"></i>
+                    <li><a href="index.html" class="font">Home</a></li>
+                    <li><a href="artworks.html" class="font">About Me</a></li>
+                    <li class = "center">
+                    	<a href="https://www.instagram.com/graviton551/" class="btn-small waves-effect waves-light pink side-nav" style="margin:1vw">Instagram</a>
+                    	<a href="https://www.facebook.com/KumarNilind23/" class="btn-small waves-effect waves-light blue side-nav" style="margin:1vw">Facebook</a>
+                    	<a href="https://www.linkedin.com/in/graviton/"class="btn-small waves-effect waves-light blue darken-3 side-nav" style="margin:1vw">LinkedIn</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -91,16 +94,16 @@
             </div>
             <div class="col s12 l6 offset-l1">
                 <h2 class="blue-text text-darken-4 font2">Why a website?</h2>
-                <p id="font-text">I believe that showing some work is better than explaining what I can do (I am somewhat bad in explaining technical stuff too unless without going into the technicalities). This website is a practice Website for showcasing stuff I create using CSS and it's frameworks, this one uses Materialize and some CSS.</p>
+                <p class="font-text">I believe that showing some work is better than explaining what I can do. This website is a portfolio Website for showcasing stuff I create using CSS and it's frameworks, this one uses Materialize Framework and some extra CSS.</p>
             </div>
         </div>
         <div class="row padded">
             <div class="col s12 l4 push-l7 offset-l1">
-                <img src="imgs/yenn.jpg" alt="" class="responsive-img materialboxed">
+                <img src="imgs/Angel_watermarked.jpg" alt="" class="responsive-img materialboxed">
             </div>
             <div class="col s12 l6 pull-l5 right-align">
                 <h2 class="blue-text text-darken-4 font2">Content</h2>
-                <p id="font-text">Almost all the time the stuff on a site is purely my own, I create the images, the code and the wireframe of this website all by myself. Though, you can find some minor stuff that is not by me with citations to the original creator.</p>
+                <p class="font-text">Almost all the time the stuff on a site is purely my own, I create the images, the code and the wireframe of this website all by myself. Though, you can find some minor stuff that is not by me, with citations to the original creator.</p>
             </div>
         </div>
         <div class="row padded">
@@ -109,7 +112,7 @@
             </div>
             <div class="col s12 l6 offset-l1">
                 <h2 class="blue-text text-darken-4 font2">Education</h2>
-                <p id="font-text">I am a Computer Science Engineering student in a University currently in 2nd year, working to create Responsive and Professional looking Websites as a hobby/side job.</p>
+                <p class="font-text">I am a Computer Science Engineering student in Manipal University Jaipur currently in 3rd year, working to create Responsive and Professional looking Websites as a job/internship.</p>
             </div>
         </div>
     </section>
@@ -124,8 +127,8 @@
     </div>
     <!-- Container -->
     <div class="container padded">
-        <h3 class="font2">Trying my best</h3>
-        <p id="font"> You might find a few bugs and glitches in the site, as I am the only person developing this site. I can't find all the bugs on my own. If you discover any bugs/glitches that I missed or any suggestions orimprovement in the code, please suggest them to me via the social media platforms I have linked this site on.</p>
+        <h3 class="font2">Disclaimer</h3>
+        <p class="font"> You might find a few bugs and glitches in the site, as I am the only person developing this site. I can't find all the bugs on my own. If you discover any bugs/glitches that I missed or any suggestions or improvement in the code, please suggest them to me via the social media platforms I have linked this site on.</p>
     </div>
     <!-- Second Parallax -->
     <div class="parallax-container" style="height:80%">
@@ -147,13 +150,13 @@
     				<h5 class="font2">Connect</h5>
     				<ul>
 		    			<li>
-		    				<a href="#!" class="grey-text text-lighten-3 center font-text">Instagram </a>
+		    				<a href="https://www.instagram.com/graviton551/" class="grey-text text-lighten-3 center font-text">Instagram </a>
 		    			</li>
 		    			<li>
-		    				<a href="#!" class="grey-text text-lighten-3 center font-text">Facebook </a>
+		    				<a href="https://www.facebook.com/KumarNilind23/" class="grey-text text-lighten-3 center font-text">Facebook </a>
 		    			</li>
 		    			<li>
-		    				<a href="#!" class="grey-text text-lighten-3 center font-text">LinkedIn </a>
+		    				<a href="https://www.linkedin.com/in/graviton/" class="grey-text text-lighten-3 center font-text">LinkedIn </a>
 		    			</li>
 		    		</ul>
     			</div>

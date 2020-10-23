@@ -8,74 +8,35 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/extra.css">
 	<title>About Me</title>
 	<style type="text/css">
-        .title span{
-            position: absolute;
-            bottom: 2vh;
-            left: 18vw;
-            color:white;
-        }
-        .fit{
-            height: 100%; 
-            width: 100%; 
-            object-fit: contain;
-        }
-    	#padded{
-    		padding:5%;
-    	}
-        .font{
-            font-family:"Ink Free",serif, "Comic Sans MS";
-        }
-        .font2{
-        	font-family:'Gloss and Bloom';
-        }
-        .font-text{
-            font-family:'Gabriola';
-            font-size:1.5rem;
-        }
-        .section{
-            padding-top:4vw;
-            padding-bottom:4vw;
-        }
-        .pic{
-            background-size:cover;
-            background-position: cover;
-            min-height: 700px;
-        }
-        @media screen and (max-width: 700px){
-            header{
-                min-height: 500px;
-            }
-        }
+    
 
     </style>
 </head>
-<body style="background:url(imgs/backgroun.png);background-size:cover;background-position: center;min-height: 700px;">
+<body style="background:url(imgs/background.png);background-size:cover;background-position: center;min-height: 700px;">
         <header>
-        <nav class="nav-wrapper blue z-depth-0">
+        <nav class="nav-wrapper z-depth-0" style="background-color:#ff7878 !important;">
             <div class="container">
-                <a href="index.html" class="brand-logo font">Showcase</a>
+                <a href="index.html" class="brand-logo font" class="font">Showcase</a>
                 <a href="#" class="sidenav-trigger" data-target="mobile-links">
                     <i class="material-icons">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down" style="font-family:'Gabriola';">
                     <li><a href="index.html" class="waves-effect waves-light">Home</a></li>
-                    <li><a href="artworks.html" class="waves-effect waves-light">My Artworks</a></li>
-<!--                     <li><a href="wcid.html" class="waves-effect waves-light">What I can work with?</a></li> -->
-                    <li> <i class="btn-floating btn-small waves-effect waves-light fab fa-instagram pink" style="margin:1vw"> </i></li>
-                    <li> <i class="btn-floating btn-small waves-effect waves-light fab fa-facebook blue" style="margin:1vw"> </i></li>
-                    <li> <a href="https://www.linkedin.com/in/graviton/"><i class="btn-floating btn-small waves-effect waves-light fab fa-linkedin blue darken-3" style="margin:1vw"> </i></a></li>
+                    <li> <a href="https://www.instagram.com/graviton551/" class="btn waves-effect waves-light fab fa-instagram pink top-nav" style="margin:1vw"> </a></li>
+                    <li> <a href="https://www.facebook.com/KumarNilind23/" class="btn waves-effect waves-light fab fa-facebook blue top-nav" style="margin:1vw"> </a></li>
+                    <li> <a href="https://www.linkedin.com/in/graviton/" class="btn waves-effect waves-light fab fa-linkedin blue darken-3 top-nav" style="margin:1vw"> </a></li>
                 </ul>
-                <ul class="sidenav grey lighten-3 z-depth-0" id="mobile-links" style="font-family:'Gabriola'">
+                <ul class="sidenav grey lighten-3 z-depth-0" id="mobile-links">
                     <li><a href="index.html" class="mobile-links font2">Showcase</a></li>
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="artworks.html" >My Artworks</a></li>
-<!--                     <li><a href="wcid.html" class="font2">What I can work with?</a></li> -->
+                    <li><a href="index.html" class="font">Home</a></li>
+                    <li><a href="artworks.html" class="font">About Me</a></li>
                     <li class = "center">
-                    <i class="btn-floating btn-small waves-effect waves-light fab fa-instagram pink" style="margin:1vw"></i>
-                    <i class="btn-floating btn-small waves-effect waves-light fab fa-facebook blue" style="margin:1vw"></i>
-                    <a href="https://www.linkedin.com/in/graviton/"><i class="btn-floating btn-small waves-effect waves-light fab fa-linkedin blue darken-3" style="margin:1vw"></i></a>
+                        <a href="https://www.instagram.com/graviton551/" class="btn-small waves-effect waves-light pink side-nav" style="margin:1vw">Instagram</a>
+                        <a href="https://www.facebook.com/KumarNilind23/" class="btn-small waves-effect waves-light blue side-nav" style="margin:1vw">Facebook</a>
+                        <a href="https://www.linkedin.com/in/graviton/"class="btn-small waves-effect waves-light blue darken-3 side-nav" style="margin:1vw">LinkedIn</a>
                     </li>
                 </ul>
             </div>
@@ -84,18 +45,18 @@
 
     <div class="container" id="padded">
         <h3 class='font2'>About me</h3>
-        <p class='font'>A Web Development / Data Science Enthusiast, currently doing B.Tech in Computer Science Engineering as a Sophomore & working my way up in the industry, currently looking for internships. This pages shows my Qualifications and Skills.</p>
+        <p class='font'>A Web Development / Data Science in Progress & working my way up in the industry, currently looking for internships. This pages shows my Qualifications and Skills.</p>
         <div class="row">
             <div class="col s12">
               <ul class="tabs">
                 <li class="tab col s4 font"><a href="#test1">Education</a></li>
                 <li class="tab col s4 font"><a class="active" href="#test2">My Skills</a></li>
 <!--                 <li class="tab col s3 font"><a href="#test3">Previous Achievements</a></li> -->
-                <li class="tab col s4 font"><a href="#test4">Hobbies</a></li>
+                <li class="tab col s4 font"><a href="#test4">Hobbies/Passive Skills</a></li>
               </ul>
             </div>
             <div id="test1" class="col s6">
-                <p class="font padded" style="font-size:20px;">I usually go online by the alias "Graviton". Currently a Sophomore doing B.Tech. in CSE, I manage to balance my Acadamics with my Hobbies pretty fairly. I have completed my schooling in India and I managed to achieve decent Grades.<br>Detailed Information about my Education is on my LinkedIn Profile.</p>
+                <p class="font padded" style="font-size:20px;">Currently doing B.Tech in Computer Science Engineering as a 3rd Year in Manipal University Jaipur , I manage to balance my Academics with my Hobbies pretty fairly. I have completed my schooling in India and I managed to achieve decent Grades.<br>Detailed Information about my Education is on my LinkedIn Profile.</p>
                 <a href="https://www.linkedin.com/in/graviton/" class="black-text center font-text">My LinkedIn Profile</a>
 
             </div>
@@ -111,6 +72,13 @@
                             <li class='font'><i class="fas fa-chevron-right"></i> Bootstrap/ Materialize Frameworks</li>
                         </ul>
                     </li>
+                    <li><h5 style="font-family:'Nueva Std'; font-style:condensed;">Graphic Design</h5>
+                        <ul>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Photoshop</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> Illustrator</li>
+                            <li class='font'><i class="fas fa-chevron-right"></i> After Effects</li>
+                        </ul>
+                    </li>                    
                     <li><h5 style="font-family:'Nueva Std'; font-style:condensed;">Backend</h5>
                         <ul>
                             <li class='font'><i class="fas fa-chevron-right"></i> MySQL</li>
@@ -133,11 +101,8 @@
             </div>
             <div id="test4" class="col s12" style="font-size:20px;">
                 <ul>
-                    <li><h5 style="font-family:'Nueva Std'; font-style:condensed;">Artistry</h5>
+                    <li><h5 style="font-family:'Nueva Std'; font-style:condensed;">Artistry (3D)</h5>
                         <ul>
-                            <li class='font'><i class="fas fa-chevron-right"></i> Photoshop</li>
-                            <li class='font'><i class="fas fa-chevron-right"></i> Illustrator</li>
-                            <li class='font'><i class="fas fa-chevron-right"></i> After Effects</li>
                             <li class='font'><i class="fas fa-chevron-right"></i> Blender</li>
                             <li class='font'><i class="fas fa-chevron-right"></i> Source Filmmaker</li>
                             <li class='font'><i class="fas fa-chevron-right"></i> Lightroom</li>
@@ -162,11 +127,42 @@
 
     <div class="container" id="padded">
         <h3 class='font2'>My Artworks</h3>
+        <h5 style="font-family:'Nueva Std'; font-style:condensed;">Drag mouse to move to next Image</h5>
         <div class="carousel carousel-slider center" style="height:100vh;">
             <div class="carousel-fixed-item center">
               <a class="transparent z-depth-0"></a>
             </div>
             <div class="carousel-item" href="#one!">
+                <div class="transparent fit title">
+                    <img class="fit" src="imgs/angri-lady2.jpg">
+                    <span class="card-title center font">Angry Lady</span>
+                </div>
+            </div>
+            <div class="carousel-item" href="#two!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/IMG20200303233042.jpg">
+                        <span class="card-title center font">Album Thumbnail</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#three!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/Chamki.jpg">
+                        <span class="card-title center font">Video Thumbnail 1</span>
+                    </div>
+                </div>
+            </div>            
+            <div class="carousel-item" href="#four!">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="fit" src="imgs/pic.png">
+                        <span class="card-title center font">Video Thumbnail 2</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" href="#five!">
                 <div class="card">
                     <div class="card-image">
                         <img src="imgs/abstract2_2-1.jpg">
@@ -174,7 +170,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" href="#two!">
+            <div class="carousel-item" href="#six!">
                 <div class="card">
                     <div class="card-image">
                         <img class="fit" src="imgs/tracer_shoot_2.jpg">
@@ -182,7 +178,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" href="#three!">
+            <div class="carousel-item" href="#seven!">
                 <div class="card">
                     <div class="card-image">
                         <img class="fit" src="imgs/gwen.png">
@@ -190,7 +186,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" href="#four!">
+            <div class="carousel-item" href="#eight!">
                 <div class="card">
                     <div class="card-image">
                         <img class="fit" src="imgs/blast_tw3-2.jpg">
@@ -198,15 +194,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" href="#five!">
-                <div class="card">
-                    <div class="card-image">
-                        <img class="fit" src="imgs/amelia_pyro-1.jpg">
-                        <span class="card-title center font">Pyro - Team Fortress 2</span>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item" href="#six!">
+            <div class="carousel-item" href="#nine!">
                 <div class="card">
                     <div class="card-image">
                         <img class="fit" src="imgs/tifa.png">
@@ -214,13 +202,13 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" href="#seven!">
+            <div class="carousel-item" href="#ten!">
                 <div class="transparent fit title">
                     <img class="fit" src="imgs/ezgif.com-optimize (1).gif">
                     <span class="center font">Nebula Gif</span>
                 </div>
             </div>
-            <div class="carousel-item" href="#eight!">
+            <div class="carousel-item" href="#eleven!">
                 <div class="card">
                     <div class="card-image">
                         <img class="fit" src="imgs/Vikings-Recovered-1.jpg">
@@ -228,31 +216,21 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" href="#nine!">
-                <div class="transparent fit title">
-                    <img class="fit" src="imgs/seris_divine_PSD-1.png">
-                    <span class="center font">Seris - From Paladins</span>
+            <div class="carousel-item" href="#twelve!">
+                <div class="card">
+                        <div class="card-image">
+                            <img class="fit" src="imgs/Angel_watermarked.jpg">
+                            <span class="card-title center font">Falling Angel</span>
+                        </div>
                 </div>
             </div>
-            <div class="carousel-item" href="#ten!">
+            <div class="carousel-item" href="#thirteen!">
                 <div class="transparent fit title">
                     <img class="fit" src="imgs/random-1-2.png">
                     <span class="center font">Random Girl</span>
                 </div>
             </div>
-            <div class="carousel-item" href="#eleven!">
-                <div class="transparent fit title">
-                    <img class="fit" src="imgs/thot6.png">
-                    <span class="center font">Female Scout</span>
-                </div>
-            </div>            
-            <div class="carousel-item" href="#twelve!">
-                <div class="transparent fit title">
-                    <img class="fit" src="imgs/tracer again-1.png">
-                    <span class="center font">Tracer - From the Past</span>
-                </div>
-            </div>
-            <div class="carousel-item" href="#thirteen!">
+            <div class="carousel-item" href="#fourteen!">
                 <div class="card">
                     <div class="card-image">
                         <img class="fit" src="imgs/WolvenStorm-1.png">
@@ -260,7 +238,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" href="#fourteen!">
+            <div class="carousel-item" href="#fifteen!">
                 <div class="card">
                     <div class="card-image">
                         <img class="fit" src="imgs/subnautica_reaper.png">
@@ -281,12 +259,12 @@
                     <h5 class="font2">Connect</h5>
                     <ul>
                         <li>
-                            <a href="#!" class="grey-text text-lighten-3 center font-text">Instagram 
+                            <a href="https://www.instagram.com/graviton551/" class="grey-text text-lighten-3 center font-text">Instagram 
                                 
                             </a>
                         </li>
                         <li>
-                            <a href="#!" class="grey-text text-lighten-3 center font-text">Facebook 
+                            <a href="https://www.facebook.com/KumarNilind23/" class="grey-text text-lighten-3 center font-text">Facebook 
                                 
                             </a>
                         </li>
@@ -311,7 +289,7 @@
 		});
         $('.carousel.carousel-slider').carousel({
                 fullWidth:true,
-                indicators: true
+                indicators: false
         });         
         let c = 0;
         $('#scale-demo-trigger').click( f => c == 0
